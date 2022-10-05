@@ -38,14 +38,9 @@ $string['error_enrol_user'] = 'There was a problem when enrolling the user <em>{
 $string['error_exception_info'] = 'Exception information';
 $string['error_getting_user_for_data'] = 'There was a problem when getting the user record for <em>{$a}</em> from the database.';
 $string['error_group_add_members'] = 'There was a problem when adding the users to the course group(s).';
-$string['error_group_add_member'] = 'There was a problem when adding the user with e-mail <em>{$a->email}</em> to the course group <em>{$a->group}</em>.';
-$string['error_invalid_email'] = 'Invalid e-mail address found in line {$a->row} (<em>{$a->email}</em>). This line will be ignored.';
-$string['error_more_than_one_record_for_email'] = 'More than one existing Moodle user account with e-mail address <em>{$a}</em> found.<br />This line will be ignored, none of the existing Moodle users will be enrolled.';
-$string['error_no_email'] = 'No e-mail address found in line {$a->line} (<em>{$a->content}</em>). This line will be ignored.';
-$string['error_no_valid_email_in_list'] = 'No valid e-mail address was found in the given list.<br />Please <a href=\'{$a->url}\'>go back and check your input</a>.';
-$string['error_no_record_found_for_email'] = 'No existing Moodle user account with e-mail address <em>{$a}</em>.<br />This line will be ignored, there won\'t be a Moodle user account created on-the-fly.';
-$string['error_usermails_empty'] = 'List of e-mail addresses is empty. Please add at least one e-mail address.';
-$string['error_check_is_already_member'] = 'Error checking if the user (<em>{$a->email}</em>) is already a member of group (<em>{$a->groupname}</em>). {$a->error}';
+$string['error_group_add_member'] = 'There was a problem when adding the user <em>{$a->data}</em> to the course group <em>{$a->group}</em>.';
+$string['error_more_than_one_record_for_data'] = 'More than one existing Moodle user account with {$a->field} <em>{$a->identifier}</em>em> found.<br /> This line will be ignored, none of the existing Moodle users will be enrolled.';
+$string['error_no_valid_data_in_list'] = 'No valid entrys were found in the given list.<br />Please <a href=\'{$a->url}\'>go back and check your input</a>.';
 $string['groupinfos_headline'] = 'Groups included in the list';
 $string['group_name_headline'] = 'Group name';
 $string['group_status_create'] = 'Group will be created';
@@ -57,7 +52,7 @@ $string['error_no_record_found_for_data'] = 'No existing Moodle user account <em
 $string['error_no_options_available'] = 'Your administrator has disabled all options. Please contact your administrator';
 $string['error_list_empty'] = 'List is empty. Please add at least one fieldvalue';
 $string['error_check_is_already_member'] = 'Error checking if the user (<em>{$a->data}</em>) is already a member of group (<em>{$a->groupname}</em>). {$a->error}';
-$string['fieldoptions'] = 'Fieldoptions';
+$string['fieldoptions'] = 'Field options';
 $string['fieldoptions_desc'] = 'Fields, that teachers can use as identifier to enrol students by.';
 $string['pluginname'] = 'User bulk enrolment';
 $string['or'] = 'or';
