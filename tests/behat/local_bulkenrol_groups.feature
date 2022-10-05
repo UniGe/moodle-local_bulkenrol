@@ -41,7 +41,7 @@ Feature: Using the local_bulkenrol plugin for group management
     And I am on "Course 1" course homepage
     And I select "Participants" from secondary navigation
     And I select "User bulk enrolment" from the "jump" singleselect
-    And I set the field "List of e-mail addresses" to multiline:
+    And I set the field "List of users identified by your chosen field" to multiline:
       """
       # Group 1
       student1@example.com
@@ -81,7 +81,7 @@ Feature: Using the local_bulkenrol plugin for group management
     And I am on "Course 1" course homepage
     And I select "Participants" from secondary navigation
     And I select "User bulk enrolment" from the "jump" singleselect
-    And I set the field "List of e-mail addresses" to multiline:
+    And I set the field "List of users identified by your chosen field" to multiline:
       """
       # Group 1
       student1@example.com
@@ -120,7 +120,7 @@ Feature: Using the local_bulkenrol plugin for group management
     And I am on "Course 1" course homepage
     And I select "Participants" from secondary navigation
     And I select "User bulk enrolment" from the "jump" singleselect
-    And I set the field "List of e-mail addresses" to multiline:
+    And I set the field "List of users identified by your chosen field" to multiline:
       """
       # Group 1
       student1@example.com
@@ -150,7 +150,7 @@ Feature: Using the local_bulkenrol plugin for group management
     And I am on "Course 1" course homepage
     And I select "Participants" from secondary navigation
     And I select "User bulk enrolment" from the "jump" singleselect
-    And I set the field "List of e-mail addresses" to multiline:
+    And I set the field "List of users identified by your chosen field" to multiline:
       """
       # Group 1
       student1@example.com

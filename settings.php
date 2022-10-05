@@ -90,6 +90,10 @@ if ($hassiteconfig) {
 
         global $DB;
         $fields = [];
+        // The same e-mail address could be shared between users.
+        if ($CFG->allowaccountssameemail) {
+            $usertableoptions = array_diff($usertableoptions, ['email']);
+        }
         foreach ($usertableoptions as $fieldname) {
             if (!in_array($fieldname, $usertableoptions)) {
                 continue;
